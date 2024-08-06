@@ -1,0 +1,89 @@
+.main__contact {
+  width: 100%;
+  background-color: #2d2d34;
+  height: 100vh;
+}
+
+.main__contact .container {
+  padding-right: 0;
+}
+.contact-area {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d34;
+  margin-top: 150px;
+  padding-right: 0;
+}
+
+input,
+textarea {
+  outline: none;
+  border: 2px solid #0000002a;
+  font-size: 20px;
+}
+label {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.contact__inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameInputForm {
+  display: flex;
+  gap: 4%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 0;
+  width: 110%;
+}
+
+.inputName {
+  width: 45%;
+}
+
+.inputName input {
+  width: 100%;
+  height: 40px;
+}
+
+.emailForm,
+.subject,
+.message {
+  width: 110%;
+  margin-bottom: 20px;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.emailForm input,
+.subject input {
+  width: 94%;
+  height: 40px;
+}
+
+.message textarea {
+  width: 94%;
+  height: 100px;
+}
+
+.required {
+  color: red;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.button_submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1300px) {
+  .main__contact .container {
+    width: 90%;
+  }
+}

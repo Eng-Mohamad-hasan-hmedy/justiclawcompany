@@ -1,0 +1,61 @@
+.services_type {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: white;
+  width: 23%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.main__services {
+  width: 100%;
+  background-color: #2d2d34;
+}
+
+.servisec-area {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d34;
+  margin-top: 150px;
+  flex-wrap: wrap;
+}
+
+.info_content_services {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+
+.services_type p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 899px) {
+  .container h1 {
+    width: 100%;
+    font-size: 40px;
+  }
+  .services_type {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .services_type {
+    width: 47%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .services_type {
+    width: 24%;
+    margin-bottom: 50px;
+  }
+}

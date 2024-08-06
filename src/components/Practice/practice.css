@@ -1,0 +1,249 @@
+.main__practice {
+  width: 100%;
+  background-color: #2d2d34;
+}
+.practice-areas {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d34;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.intro {
+  width: 40%;
+  display: flex;
+  height: 30%;
+  flex-direction: column;
+}
+
+.intro h2 {
+  font-size: 36px;
+  color: #eaeaea;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.intro h2 span {
+  color: #b8a484;
+  font-weight: 700;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #eaeaea;
+  line-height: 35px;
+}
+
+.intro .btn {
+  margin-top: 30px;
+}
+
+.areas {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+
+  height: 45%;
+}
+
+.area {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.icon {
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.content h3 {
+  font-size: 24px;
+  color: #b8a484;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #eaeaea;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+  color: #eaeaea;
+  margin: 0;
+  margin-top: 100px;
+}
+
+h1 .highlight {
+  font-weight: bold;
+  color: #b8a484;
+}
+
+.info_content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+
+.info_content .counter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.counter h1 {
+  font-size: 70px;
+  font-weight: 500;
+  color: #b8a484;
+}
+
+.counter h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #eaeaea;
+}
+
+.counter p {
+  font-size: 17px;
+  font-weight: 200;
+  color: #eaeaea9d;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  height: 350px;
+}
+
+.team p {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.team img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.team h2 {
+  color: #b8a484;
+  font-weight: 700;
+}
+
+.team h3 {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+  .main__practice .container {
+    width: 90%;
+    padding-left: 20px;
+  }
+  .practice-areas {
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
+    padding-right: 0;
+  }
+  .intro {
+    width: 100%;
+    margin-bottom: 100px;
+    margin-left: 0 !important;
+  }
+
+  .area {
+    padding-left: 0;
+    width: 100%;
+  }
+  .areas {
+    width: 100%;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .intro h2 {
+    font-size: 30px;
+    color: #eaeaea;
+    font-weight: 400;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .intro h2 span {
+    color: #b8a484;
+    font-weight: 700;
+    width: 100%;
+  }
+
+  .intro p {
+    font-size: 14px;
+    color: #eaeaea;
+    line-height: 35px;
+    width: 100%;
+  }
+
+  .icon {
+    font-size: 20px;
+    margin-right: 25px;
+    margin-left: 0;
+  }
+
+  .content h3 {
+    font-size: 20px;
+    color: #b8a484;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .content p {
+    font-size: 14px;
+    color: #eaeaea;
+    width: 100%;
+  }
+
+  .practice-areas h1 {
+    font-size: 24px;
+  }
+  .info_content .counter {
+    width: 100%;
+    gap: 0;
+  }
+  .info_content .team {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .info_content .team {
+    width: 45%;
+
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .info_content .team {
+    width: 30%;
+
+    margin-bottom: 30px;
+  }
+}

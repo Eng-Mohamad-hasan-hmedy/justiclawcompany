@@ -1,0 +1,173 @@
+.main__about {
+  width: 100%;
+  background-color: #2d2d34;
+  padding-bottom: 200px;
+}
+
+.main__about .container .main_title {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.about-area {
+  display: flex;
+  justify-content: space-between;
+  background: url(../../assets/heroBg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 150px;
+  flex-wrap: wrap;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: #0b0b0c 0px 8px 23px;
+  flex-wrap: wrap;
+}
+
+.content_About {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.content_About p {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.content_About .btn {
+  width: 200px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+.faq_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 300px;
+}
+
+.content_section_about_features {
+  width: 40%;
+}
+
+.content_section_about_features h1 {
+  padding-bottom: 40px !important;
+}
+
+.content_section_about_features p {
+  font-size: 18px;
+  color: #eaeaea;
+  line-height: 35px;
+}
+
+.accodion_section {
+  width: 45%;
+  margin-top: -80px !important;
+}
+
+.feature_text {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.main__about .container .info_content .team {
+  width: 23%;
+  align-items: flex-start;
+  gap: 20px;
+  height: 400px;
+  flex-wrap: wrap;
+}
+
+.main__about .container .info_content .team p {
+  text-align: left;
+}
+
+@media screen and (max-width: 899px) {
+  .main__about .container {
+    width: 90%;
+  }
+
+  .main__about .container h1 {
+    font-size: 24px;
+  }
+  .faq_section {
+    flex-wrap: wrap;
+  }
+  .content_section_about_features {
+    width: 100%;
+    margin-bottom: 200px;
+  }
+
+  .accodion_section {
+    width: 100%;
+  }
+  .info_content {
+    flex-wrap: wrap;
+  }
+
+  .info_content .team {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .content_About p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .faq_section {
+    flex-wrap: wrap;
+  }
+  .content_section_about_features {
+    width: 90%;
+    margin-bottom: 200px;
+  }
+
+  .accodion_section {
+    width: 80%;
+  }
+
+  .info_content {
+    flex-wrap: wrap;
+  }
+
+  .info_content .team {
+    width: 45% !important;
+    margin-bottom: 30px;
+  }
+  .content_About p {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .faq_section {
+    flex-wrap: wrap;
+  }
+  .content_section_about_features {
+    width: 45%;
+    margin-bottom: 200px;
+  }
+
+  .accodion_section {
+    width: 45%;
+  }
+  .info_content {
+    flex-wrap: wrap;
+  }
+
+  .info_content .team {
+    width: 24% !important;
+    margin-bottom: 30px;
+  }
+  .content_About p {
+    font-size: 40px;
+  }
+}

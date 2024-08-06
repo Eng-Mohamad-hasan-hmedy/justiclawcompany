@@ -1,0 +1,89 @@
+.main__footer {
+  background-color: #252529;
+  padding-top: 30px;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.listFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.listFooter ul {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.listFooter ul li {
+  color: white;
+  font-size: 20px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.308);
+  width: fit-content;
+  padding-bottom: 4px;
+  transition: 0.3s ease;
+}
+
+.listFooter ul li:hover {
+  color: #b8a484;
+  cursor: pointer;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.637);
+}
+
+.listFooter ul .activeLink {
+  color: #b8a484;
+  margin-bottom: 30px;
+  border-bottom: none;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.listFooter ul .activeLink:hover {
+  color: white;
+  border-bottom: none;
+}
+
+.soctialMedia {
+  display: flex;
+  flex-direction: row !important;
+  height: 50px;
+  gap: 20px !important;
+  color: #b8a484;
+  width: 100% !important;
+}
+
+@media screen and (max-width: 900px) {
+  .main__footer .container {
+    width: 90%;
+  }
+  .listFooter {
+    flex-wrap: wrap;
+  }
+  .listFooter ul {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .listFooter {
+    flex-wrap: wrap;
+  }
+  .listFooter ul {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .listFooter {
+    flex-wrap: wrap;
+  }
+  .listFooter ul {
+    width: 20%;
+    margin-right: 20px;
+  }
+}
